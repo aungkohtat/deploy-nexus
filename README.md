@@ -26,18 +26,21 @@ sudo apt install -y docker-ce
 ```
 
 - Confirmed Docker is running with:
-Documentation```
+  
+Documentation
+
+```
 sudo systemctl status docker
 
 ```
+
 
 ### 3. Docker Verification
 
-```
 
+```
 docker --version
 sudo systemctl status docker
-
 ```
 
 ### 4. Persistent Data Storage
@@ -113,5 +116,7 @@ sudo systemctl start docker
 - [Nexus Docker Image Documentation]
 
 *Replace `<your_droplet_ip>` with your actual droplet IP address.*
+```
+http://128.199.176.24:8081/
 ```
 
